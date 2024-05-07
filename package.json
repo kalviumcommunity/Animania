@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["anime", "manga", "animania"],
+  "author": "Nihit Yadav",
   "license": "ISC"
 }
