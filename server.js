@@ -1,8 +1,10 @@
+require('dotenv').config();
 const express = require('express');
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT;
 const axios = require('axios');
 const cors = require('cors');
+
 
 app.use(express.json());
 app.use(cors());
@@ -29,9 +31,9 @@ app.get('/anime', async (req, res) => {
                 'X-RapidAPI-Host': 'anime-db.p.rapidapi.com'
             }
         };
-        
+
         const response = await axios.request(options);
-        res.send(response.data);
+        res.json(response.data);
     } catch (error) {
         console.error(error);
         if (error.response && error.response.status) {
