@@ -19,3 +19,6 @@ Watchlist Management: Create and manage your personalized watchlist, keeping tra
 Security Measures: Ensure data security by securely hashing and storing user passwords. Manage user sessions securely using session storage to prevent unauthorized access.
 Conclusion:
 Animania offers a comprehensive platform for anime enthusiasts to explore, discover, and interact with their favorite anime series. With its rich features, seamless user experience, and commitment to data security, Animania aims to revolutionize the way anime lovers engage with Japanese animation online. Join the community today and embark on a journey through the fascinating world of anime with Animania!
+
+Backend deployed link - https://animania-q0nd.onrender.com
+                      - https://animania-q0nd.onrender.com/ping (first endpoint)
